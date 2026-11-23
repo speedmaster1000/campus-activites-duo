@@ -20,7 +20,9 @@ Si le professeur fournit une adresse via Wamp/Apache, utilisez celle-ci avec `pu
 3. Copiez `config/connexion.exemple.php` en `config/connexion.local.php`, puis adaptez le nom de la base, le port et vos identifiants. Le fichier local est ignoré par Git. Vérifiez-le avec `git status --ignored` une fois le dépôt créé.
 4. Dans `public/activites.php`, chargez `src/bdd/connexion.php` avec un chemin basé sur `__DIR__`, appelez `connecterBase()` et remplacez les données de démonstration par le résultat de votre requête. La connexion est fournie. Les requêtes et la fiche de détail font partie du travail demandé.
 5. Vérifiez la provenance des données en modifiant provisoirement un titre dans votre base de test, puis rechargez la page. Rétablissez le titre après le test.
-6. Ne pas dormir 
+6. Ne pas dormir
+7. pensez a prendre des temps de repos
+   
 
 ## Se repérer
 
